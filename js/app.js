@@ -1,137 +1,134 @@
 'use strict';
 
-// let userName = prompt('What is your name?');
+let userName = prompt('What is your name?');
 
-// alert(`Welcome to my personal blog ${userName}. I wish you a fun tour!`);
+alert(`Welcome to my personal blog ${userName}. I wish you a fun tour!`);
 
+let score=0;
 
-// let football = prompt('Do I enjoy playing and watching football matches?');
+let football = prompt('Do I enjoy playing and watching football matches?');
 
-// switch (football.toLowerCase()){
-// case 'yes':
-// case 'y':
+switch (football.toLowerCase()){
+case 'yes':
+case 'y':
+  score++;
+  //console.log('You are right, I like football');
+  alert ('You are right, I like football');
 
-//   //console.log('You are right, I like football');
-//   alert ('You are right, I like football');
+  break;
 
-//   break;
+case 'no':
+case 'n':
 
-// case 'no':
-// case 'n':
+  //console.log('You are worng, I do like football');
+  alert('You are worng, I do like football');
+  break;
 
-//   //console.log('You are worng, I do like football');
-//   alert('You are worng, I do like football');
-//   break;
+default:
+  //console.log('Please, specify your answer to yes/y or no/n');
+  alert ('Please, specify your answer to yes/y or no/n');
+}
 
-// default:
-//   //console.log('Please, specify your answer to yes/y or no/n');
-//   alert ('Please, specify your answer to yes/y or no/n');
-// }
+let travel = prompt('Do you think that I like travelling?');
 
-// let travel = prompt('Do you think that I like travelling?');
+switch(travel.toLowerCase()){
 
-// switch(travel.toLowerCase()){
+case 'yes':
+case 'y':
+  score++;
+  //console.log('Yes I do, you seem that you read my introduction in the website');
+  alert('Yes I do, you seem that you read my introduction in the website');
 
-// case 'yes':
-// case 'y':
+  break;
 
-//   //console.log('Yes I do, you seem that you read my introduction in the website');
-//   alert('Yes I do, you seem that you read my introduction in the website');
+case 'no':
+case 'n':
 
-//   break;
+  //console.log('You seem that you did not read my introduction -.-');
+  alert('You seem that you did not read my introduction -.-');
 
-// case 'no':
-// case 'n':
+  break;
 
-//   //console.log('You seem that you did not read my introduction -.-');
-//   alert('You seem that you did not read my introduction -.-');
+default:
 
-//   break;
+  // console.log ('Please, specify your answer to yes/y or no/n');
+  alert ('Please, specify your answer to yes/y or no/n');
+}
 
-// default:
+let horror= prompt('Do you think that I am seeing you now?');
 
-//   // console.log ('Please, specify your answer to yes/y or no/n');
-//   alert ('Please, specify your answer to yes/y or no/n');
-// }
+switch (horror.toUpperCase()){
 
-// let horror= prompt('Do you think that I am seeing you now?');
+case 'YES':
+case 'Y':
 
-// switch (horror.toUpperCase()){
+  //   console.log('Of course not, its a game :D');
+  alert ('Of course not, its a game :D');
 
-// case 'YES':
-// case 'Y':
+  break;
 
-//   //   console.log('Of course not, its a game :D');
-//   alert ('Of course not, its a game :D');
+case 'NO':
+case 'N':
+  score++;
+  //   console.log('Do not be scared I am just kidding :D');
+  alert ('Do not be scared I am just kidding :D');
+  break;
 
-//   break;
+default:
+  //console.log('Please, specify your answer to YES/Y or NO/N');
+  alert ('Please, specify your answer to YES/Y or NO/N');
+}
 
-// case 'NO':
-// case 'N':
+let senseOfhumor=prompt('Do you think that I have a high level sense of humor?');
 
-//   //   console.log('Do not be scared I am just kidding :D');
-//   alert ('Do not be scared I am just kidding :D');
-//   break;
+switch(senseOfhumor.toUpperCase()){
 
-// default:
-//   //console.log('Please, specify your answer to YES/Y or NO/N');
-//   alert ('Please, specify your answer to YES/Y or NO/N');
-// }
+case 'YES':
+case 'Y':
+  score++;
+  //   console.log('You are totaly right!!');
+  alert ('You are totaly right!!');
 
-// let senseOfhumor=prompt('Do you think that I have a high level sense of humor?');
+  break;
 
-// switch(senseOfhumor.toUpperCase()){
+case 'NO':
+case 'N':
 
-// case 'YES':
-// case 'Y':
+  //   console.log('Come on dude, don not kill it -.-');
+  alert ('Come on dude, don not kill it -.-');
+  break;
 
-//   //   console.log('You are totaly right!!');
-//   alert ('You are totaly right!!');
+default:
 
-//   break;
-
-// case 'NO':
-// case 'N':
-
-//   //   console.log('Come on dude, don not kill it -.-');
-//   alert ('Come on dude, don not kill it -.-');
-//   break;
-
-// default:
-
-//   //console.log('Please, specify your answer to YES/Y or NO/N');
-//   alert ('Please, specify your answer to YES/Y or NO/N');
-// }
-
-
-// let developer= prompt('Do you think that I am the developer of this website?');
-
-// switch (developer.toUpperCase()){
-
-// case 'YES':
-// case 'Y':
-
-//   //   console.log('You are right');
-//   alert ('You are right!');
-
-//   break;
-
-// case 'NO':
-// case 'N':
-
-//   //   console.log('WRONG!!!... of course I did');
-//   alert ('WRONG!!!... of course I did');
-//   break;
-
-// default:
-
-//   //console.log('Please, specify your answer to YES/Y or NO/N');
-//   alert ('Please, specify your answer to YES/Y or NO/N');
-// }
-
-// alert ('Thank you for answer those silly questions ' + userName + ' I appreciate your time, and welcome to my personal blog');
+  //console.log('Please, specify your answer to YES/Y or NO/N');
+  alert ('Please, specify your answer to YES/Y or NO/N');
+}
 
 
+let developer= prompt('Do you think that I am the developer of this website?');
+
+switch (developer.toUpperCase()){
+
+case 'YES':
+case 'Y':
+  score++;
+  //   console.log('You are right');
+  alert ('You are right!');
+
+  break;
+
+case 'NO':
+case 'N':
+
+  //   console.log('WRONG!!!... of course I did');
+  alert ('WRONG!!!... of course I did');
+  break;
+
+default:
+
+  //console.log('Please, specify your answer to YES/Y or NO/N');
+  alert ('Please, specify your answer to YES/Y or NO/N');
+}
 
 
 for(let i=0; i<4; i++){
@@ -140,6 +137,7 @@ for(let i=0; i<4; i++){
 
   if (guessNumber==='12'){
     alert('Your answer is right, well done!');
+    score++;
     break;
 
   } else if(guessNumber>12){
@@ -159,7 +157,7 @@ alert(correctAnswer);
 outerLoop:
 for(let i=0; i<6; i++){
   let capitalCity= ['tokyo', 'casablanca', 'moscow', 'amesterdam'];
-  let favCity= prompt('What is my favorite capital city');
+  let favCity= prompt('What is my favorite capital city?');
 
   if(i===5){
     alert(`My favorite capital cities are: ${capitalCity}`);
@@ -169,9 +167,13 @@ for(let i=0; i<6; i++){
 
     if (favCity==='tokyo'|| favCity==='casablanca' || favCity==='moscow' || favCity==='amestrdam'){
       alert(`You are right!! my favorite capital cities are ${capitalCity}`);
+      score++;
       break outerLoop;
     }else if (favCity!=='tokyo'|| favCity!=='casablanca' || favCity!=='moscow' || favCity!=='amestrdam'){
       continue;
     }
   }
 }
+
+alert (`Your score is ${score} out of 7`);
+alert (`Thank you for answer those silly questions ${userName} I appreciate your time, and welcome to my personal blog`);
