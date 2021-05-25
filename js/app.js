@@ -162,7 +162,7 @@ for(let i=0; i<6; i++){
   let favCity= prompt('What is my favorite capital city');
 
   if(i===5){
-    alert(capitalCity);
+    alert(`My favorite capital cities are: ${capitalCity}`);
   }
 
   for(let j=0; j<capitalCity.length;j++){
