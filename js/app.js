@@ -85,8 +85,7 @@ default:
 question3();
 
 
-
-let senseOfhumor=prompt('Do you think that I have a high level sense of humor?');
+function question4() {let senseOfhumor=prompt('Do you think that I have a high level sense of humor?');
 
 switch(senseOfhumor.toUpperCase()){
 
@@ -110,6 +109,9 @@ default:
   //console.log('Please, specify your answer to YES/Y or NO/N');
   alert ('Please, specify your answer to YES/Y or NO/N');
 }
+}
+question4();
+
 
 
 let developer= prompt('Do you think that I am the developer of this website?');
