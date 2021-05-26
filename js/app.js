@@ -5,8 +5,7 @@ let userName = prompt('What is your name?');
 alert(`Welcome to my personal blog ${userName}. I wish you a fun tour!`);
 
 let score=0;
-
-let football = prompt('Do I enjoy playing and watching football matches?');
+function question1() {let football = prompt('Do I enjoy playing and watching football matches?');
 
 switch (football.toLowerCase()){
 case 'yes':
@@ -28,6 +27,8 @@ default:
   //console.log('Please, specify your answer to yes/y or no/n');
   alert ('Please, specify your answer to yes/y or no/n');
 }
+}
+
 
 let travel = prompt('Do you think that I like travelling?');
 
