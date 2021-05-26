@@ -113,8 +113,7 @@ default:
 question4();
 
 
-
-let developer= prompt('Do you think that I am the developer of this website?');
+function question5() {let developer= prompt('Do you think that I am the developer of this website?');
 
 switch (developer.toUpperCase()){
 
@@ -138,6 +137,9 @@ default:
   //console.log('Please, specify your answer to YES/Y or NO/N');
   alert ('Please, specify your answer to YES/Y or NO/N');
 }
+}
+question5();
+
 
 
 for(let i=0; i<4; i++){
