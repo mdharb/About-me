@@ -28,9 +28,9 @@ default:
   alert ('Please, specify your answer to yes/y or no/n');
 }
 }
+question1();
 
-
-let travel = prompt('Do you think that I like travelling?');
+function question2() {let travel = prompt('Do you think that I like travelling?');
 
 switch(travel.toLowerCase()){
 
@@ -55,6 +55,8 @@ default:
   // console.log ('Please, specify your answer to yes/y or no/n');
   alert ('Please, specify your answer to yes/y or no/n');
 }
+}
+question2();
 
 let horror= prompt('Do you think that I am seeing you now?');
 
