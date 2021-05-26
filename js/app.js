@@ -58,7 +58,7 @@ default:
 }
 question2();
 
-let horror= prompt('Do you think that I am seeing you now?');
+function question3() {let horror= prompt('Do you think that I am seeing you now?');
 
 switch (horror.toUpperCase()){
 
@@ -81,6 +81,10 @@ default:
   //console.log('Please, specify your answer to YES/Y or NO/N');
   alert ('Please, specify your answer to YES/Y or NO/N');
 }
+}
+question3();
+
+
 
 let senseOfhumor=prompt('Do you think that I have a high level sense of humor?');
 
