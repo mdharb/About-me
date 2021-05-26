@@ -141,8 +141,7 @@ default:
 question5();
 
 
-
-for(let i=0; i<4; i++){
+function question6() {for(let i=0; i<4; i++){
 
   let guessNumber= prompt('How many governorates in Jordan?');
 
@@ -157,11 +156,14 @@ for(let i=0; i<4; i++){
 
   else if(guessNumber<12){
     alert('Too low, try again!');
-  }
-}
-
-let correctAnswer= ('The correct answer is 12');
+  } 
+} let correctAnswer= ('The correct answer is 12');
 alert(correctAnswer);
+}
+question6() ;
+
+
+
 
 
 
