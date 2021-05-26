@@ -166,27 +166,29 @@ question6() ;
 
 
 
-
-outerLoop:
-for(let i=0; i<6; i++){
-  let capitalCity= ['tokyo', 'casablanca', 'moscow', 'amesterdam'];
-  let favCity= prompt('What is my favorite capital city?');
-
-  if(i===5){
-    alert(`My favorite capital cities are: ${capitalCity}`);
-  }
-
-  for(let j=0; j<capitalCity.length;j++){
-
-    if (favCity==='tokyo'|| favCity==='casablanca' || favCity==='moscow' || favCity==='amestrdam'){
-      alert(`You are right!! my favorite capital cities are ${capitalCity}`);
-      score++;
-      break outerLoop;
-    }else if (favCity!=='tokyo'|| favCity!=='casablanca' || favCity!=='moscow' || favCity!=='amestrdam'){
-      continue;
+function question7() {outerLoop:
+  for(let i=0; i<6; i++){
+    let capitalCity= ['tokyo', 'casablanca', 'moscow', 'amesterdam'];
+    let favCity= prompt('What is my favorite capital city?');
+  
+    if(i===5){
+      alert(`My favorite capital cities are: ${capitalCity}`);
+    }
+  
+    for(let j=0; j<capitalCity.length;j++){
+  
+      if (favCity==='tokyo'|| favCity==='casablanca' || favCity==='moscow' || favCity==='amestrdam'){
+        alert(`You are right!! my favorite capital cities are ${capitalCity}`);
+        score++;
+        break outerLoop;
+      }else if (favCity!=='tokyo'|| favCity!=='casablanca' || favCity!=='moscow' || favCity!=='amestrdam'){
+        continue;
+      }
     }
   }
 }
+question7();
+
 
 alert (`Your score is ${score} out of 7`);
 alert (`Thank you for answer those silly questions ${userName} I appreciate your time, and welcome to my personal blog`);
