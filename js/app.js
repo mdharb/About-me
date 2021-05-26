@@ -73,23 +73,23 @@ question2();
 
 
 function question3(){
-  let horror= prompt('Do you think that I am seeing you now?');
+  let major= prompt('Do you think that I am a doctor?');
 
-  switch (horror.toUpperCase()){
+  switch (major.toUpperCase()){
 
   case 'YES':
   case 'Y':
 
-    //   console.log('Of course not, its a game :D');
-    alert ('Of course not, its a game :D');
+    //   console.log('Wrong!!');
+    alert ('Wrong!!');
 
     break;
 
   case 'NO':
   case 'N':
     score++;
-    //   console.log('Do not be scared I am just kidding :D');
-    alert ('Do not be scared I am just kidding :D');
+    //   console.log('Engineer!, who else changing careers always!');
+    alert ('Engineer!, who else changing careers always!');
     break;
 
   default:
@@ -103,23 +103,23 @@ question3();
 
 
 function question4(){
-  let senseOfhumor=prompt('Do you think that I have a high level sense of humor?');
+  let fourSeasons=prompt('Do you think I am a summer person?');
 
-  switch(senseOfhumor.toUpperCase()){
+  switch(fourSeasons.toUpperCase()){
 
   case 'YES':
   case 'Y':
     score++;
-    //   console.log('You are totaly right!!');
-    alert ('You are totaly right!!');
+    //   console.log('You are right!!');
+    alert ('You are right!!');
 
     break;
 
   case 'NO':
   case 'N':
 
-    //   console.log('Come on dude, don not kill it -.-');
-    alert ('Come on dude, don not kill it -.-');
+    //   console.log('WRONG!!');
+    alert ('WRONG!!');
     break;
 
   default:
@@ -134,23 +134,23 @@ question4();
 
 
 function question5(){
-  let developer= prompt('Do you think that I am the developer of this website?');
+  let introvert= prompt('Do you think that I am introvert?');
 
-  switch (developer.toUpperCase()){
+  switch (introvert.toUpperCase()){
 
   case 'YES':
   case 'Y':
     score++;
-    //   console.log('You are right');
-    alert ('You are right!');
+    //   console.log('Got me!');
+    alert ('Got me!');
 
     break;
 
   case 'NO':
   case 'N':
 
-    //   console.log('WRONG!!!... of course I did');
-    alert ('WRONG!!!... of course I did');
+    //   console.log('WRONG!!!...I\'m a developer to be!');
+    alert ('WRONG!!!...I\'m a developer to be!');
     break;
 
   default:
@@ -165,18 +165,18 @@ question5();
 function question6(){
   for(let i=0; i<4; i++){
 
-    let guessNumber= prompt('How many governorates in Jordan?');
+    let guessNumber= prompt('How old am I?');
 
-    if (guessNumber==='12'){
+    if (guessNumber==='28'){
       alert('Your answer is right, well done!');
       score++;
       break;
 
-    } else if(guessNumber>12){
+    } else if(guessNumber>28){
       alert('Too high,try again!');
     }
 
-    else if(guessNumber<12){
+    else if(guessNumber<28){
       alert('Too low, try again!');
     } let correctAnswer= ('The correct answer is 12');
     if(i===3){
