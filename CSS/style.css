@@ -1,0 +1,89 @@
+body {
+    font-family: 'Odibee Sans', cursive;
+    font-size: large;
+    letter-spacing: 1px;
+    background-color: whitesmoke;
+}
+
+header {
+background-color: #ce1212;
+color: black;
+
+}
+
+header h1 {
+
+font-size: larger;
+}
+
+header nav ul{
+    position: relative;
+    margin-top: 20px;
+    
+}
+
+header nav ul span {
+ 
+    background-color: black;
+}
+
+header nav ul li {
+    display: inline;
+    list-style-type: none;
+    word-spacing: 25px;
+    
+}
+
+
+header nav ul li a{
+    text-decoration: none;
+    color: #ce1212;
+    word-spacing: 15px;
+    
+}    
+
+main h2 {
+
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: large;
+}
+
+.personal {
+
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: medium;
+
+}
+
+#hobbies p {
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+    font-size: large;
+}
+
+#hobbies ol li{
+
+    padding: 1px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: medium;
+}
+
+footer {
+    margin-top: 50px;
+    margin-bottom: 5px;
+    padding: 20px;
+    background-color:#ce1212 ;
+}
+
+footer p {
+    padding: 5px;
+    
+}

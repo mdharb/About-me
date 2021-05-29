@@ -1,8 +1,6 @@
 'use strict';
 
 
-
-
 let userName = prompt('What is your name?');
 
 alert(`Welcome to my personal blog ${userName}. I wish you a fun tour!`);
@@ -19,7 +17,7 @@ function question1()
   case 'yes':
   case 'y':
     score++;
-    //console.log('You are right, I like football');
+
     alert ('You are right, I like football');
 
     break;
@@ -27,12 +25,12 @@ function question1()
   case 'no':
   case 'n':
 
-    //console.log('You are worng, I do like football');
+
     alert('You are worng, I do like football');
     break;
 
   default:
-  //console.log('Please, specify your answer to yes/y or no/n');
+
     alert ('Please, specify your answer to yes/y or no/n');
   }
 }
@@ -48,7 +46,7 @@ function question2(){
   case 'yes':
   case 'y':
     score++;
-    //console.log('Yes I do, you seem that you read my introduction in the website');
+
     alert('Yes I do, you seem that you read my introduction in the website');
 
     break;
@@ -56,14 +54,12 @@ function question2(){
   case 'no':
   case 'n':
 
-    //console.log('You seem that you did not read my introduction -.-');
     alert('You seem that you did not read my introduction -.-');
 
     break;
 
   default:
 
-    // console.log ('Please, specify your answer to yes/y or no/n');
     alert ('Please, specify your answer to yes/y or no/n');
   }
 }
@@ -80,7 +76,7 @@ function question3(){
   case 'YES':
   case 'Y':
 
-    //   console.log('Wrong!!');
+
     alert ('Wrong!!');
 
     break;
@@ -88,12 +84,12 @@ function question3(){
   case 'NO':
   case 'N':
     score++;
-    //   console.log('Engineer!, who else changing careers always!');
+
     alert ('Engineer!, who else changing careers always!');
     break;
 
   default:
-  //console.log('Please, specify your answer to YES/Y or NO/N');
+
     alert ('Please, specify your answer to YES/Y or NO/N');
   }
 }
@@ -110,7 +106,7 @@ function question4(){
   case 'YES':
   case 'Y':
     score++;
-    //   console.log('You are right!!');
+
     alert ('You are right!!');
 
     break;
@@ -118,13 +114,11 @@ function question4(){
   case 'NO':
   case 'N':
 
-    //   console.log('WRONG!!');
     alert ('WRONG!!');
     break;
 
   default:
 
-    //console.log('Please, specify your answer to YES/Y or NO/N');
     alert ('Please, specify your answer to YES/Y or NO/N');
   }
 }
@@ -141,7 +135,7 @@ function question5(){
   case 'YES':
   case 'Y':
     score++;
-    //   console.log('Got me!');
+
     alert ('Got me!');
 
     break;
@@ -149,13 +143,11 @@ function question5(){
   case 'NO':
   case 'N':
 
-    //   console.log('WRONG!!!...I\'m a developer to be!');
     alert ('WRONG!!!...I\'m a developer to be!');
     break;
 
   default:
 
-    //console.log('Please, specify your answer to YES/Y or NO/N');
     alert ('Please, specify your answer to YES/Y or NO/N');
   }
 }
